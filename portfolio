@@ -1,0 +1,105 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<style>
+.header {
+  margin:15px 15px 15px 15px;
+  background-color:AliceBlue;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+
+.myButton {
+  background-color: LightCoral;
+  color: white;
+  font-size: 3vw;
+}
+
+.hline {
+  width:75%;
+  height:2px;
+  background-color: black;
+  margin: 10px 0px 0px 10px
+
+}
+
+
+.body {
+  margin:15px 15px 15px 15px;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+
+a {
+  color: LightCoral;
+}
+
+p {
+  font-size: 2vw;
+}
+
+h1 {
+  font-size: 6vw;
+}
+
+</style>
+
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<div class="container header jumbotron">
+  <div class="row">
+
+    <div class="col-xs-4">
+      <button class="btn btn-block myButton">About Me</button>
+    </div>
+    <div class="col-xs-4">
+      <button class="btn btn-block myButton">Work</button>
+    </div>
+    <div class="col-xs-4">
+      <button class="btn btn-block myButton">Contact Me</button>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="container body">
+
+  <div class="row">
+    <div class="col-xs-8">
+
+      <p>
+        <h1>
+          About Me
+        </h1>
+      </p>
+
+      <p style="margin-bottom:15px">
+        I'm a student to graduate from the University of Miami in May of 2017 with majors in Mathematics (Applied) and Meteorology, and a minor in Climate Science and Policy. I have experience working with financial, HR, and climate/meteorological data in both academic and professional settings. My passion is to work in the fields of Data Science and Analytics.
+      </p>
+
+      <p>
+        You can check out my <a href="https://www.linkedin.com/in/jake-robertson-0b809a109">LinkedIn here</a> and a copy of my <a href="http://www.slideshare.net/JakeRobertson2/resume2bothadd-67685524">Resume Here</a>
+      </p>
+
+    </div>
+    <div class="col-xs-4">
+      <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAO8AAAAJGU0OWVmNmMxLTlhN2MtNGIzNC05M2JmLTQwNDg5OTRjOTI5Nw.jpg" class="img-responsive" style="border-radius:50%">
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="hline"></div>
+
+  </div>
+
+</div>
